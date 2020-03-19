@@ -44,6 +44,10 @@
           </li>
         </ul>
       </div>
+      <div class="dark_mode_container">
+        <label for="toggler">Activer le mode sombre</label>
+        <input id="toggler" type="checkbox">
+      </div>
     </nav>
 
   </header>
@@ -52,11 +56,12 @@
     <!--/////////////////// TITRE + INTRO //////////////////  -->
     <section class="intro">
       <h2 class="mt-5 text-center">Les ressources et outils</h2>
-      <p class="intro-ressources text-justify">Nous allons regrouper ici différentes ressources qui vont grandement vous servir. On y
+      <p class="intro-ressources text-justify">Nous allons regrouper ici différentes ressources qui vont grandement vous
+        servir. On y
         retrouvera des cours en ligne, des documentations, et des outils indispensables.<br> On vous a déja préparer le
         terrain en séparant les contenus selon leur sujet.</p>
       <article class="img-container">
-        <img class="mb-4 p-3" src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg"/>
+        <img class="mb-4 p-3" src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" />
       </article>
     </section>
     <!--/////////////////// DEBUT ACCORDEON //////////////////  -->
@@ -257,69 +262,69 @@
     </section>
     <!--/////////////////// FIN ACCORDEON //////////////////  -->
   </main>
- <!-- Footer -->
- <footer class="page-footer font-small">
-    
-  <!-- Footer Links -->
-  <div class="container">
+  <!-- Footer -->
+  <footer class="page-footer font-small">
 
-    <!-- Grid row-->
-    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+    <!-- Footer Links -->
+    <div class="container">
 
-      <!-- Grid column -->
-      <div class="col-lg-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="#!">À PROPOS</a>
-        </h6>
+      <!-- Grid row-->
+      <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+        <!-- Grid column -->
+        <div class="col-lg-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="#!">À PROPOS</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="ressources.html">RESSOURCES</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a href="infos.html">CONTACT</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+
       </div>
-      <!-- Grid column -->
+      <!-- Grid row-->
+      <hr class="rgba-white-light" style="margin: 0 15%;">
 
-      <!-- Grid column -->
-      <div class="col-lg-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="ressources.html">RESSOURCES</a>
-        </h6>
-      </div>
-      <!-- Grid column -->
+      <!-- Grid row-->
+      <div class="row d-flex text-center justify-content-center mb-lg-0 mb-4">
 
-      <!-- Grid column -->
-      <div class="col-lg-2 mb-3">
-        <h6 class="text-uppercase font-weight-bold">
-          <a href="infos.html">CONTACT</a>
-        </h6>
+        <!-- Grid column -->
+        <div class="col-lg-8 col-12 mt-5">
+          <p style="line-height: 1.7rem">Parce que c'est chiant de tout chercher par soi-même</p>
+        </div>
+        <!-- Grid column -->
+
       </div>
-      <!-- Grid column -->
+      <!-- Grid row-->
+      <hr class="clearfix d-lg-none rgba-white-light" style="margin: 10% 15% 5%;">
 
     </div>
     <!-- Grid row-->
-    <hr class="rgba-white-light" style="margin: 0 15%;">
-
-    <!-- Grid row-->
-    <div class="row d-flex text-center justify-content-center mb-lg-0 mb-4">
-
-      <!-- Grid column -->
-      <div class="col-lg-8 col-12 mt-5">
-        <p style="line-height: 1.7rem">Parce que c'est chiant de tout chercher par soi-même</p>
-      </div>
-      <!-- Grid column -->
 
     </div>
-    <!-- Grid row-->
-    <hr class="clearfix d-lg-none rgba-white-light" style="margin: 10% 15% 5%;">
+    <!-- Footer Links -->
 
-  </div>
-  <!-- Grid row-->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright :
+      <a href="index.html"> How To Learn To Code</a>
+    </div>
+    <!-- Copyright -->
 
-  </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright :
-    <a href="index.html"> How To Learn To Code</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
   </script>
@@ -329,6 +334,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
+  <script src="dark_mode.js"></script>
 </body>
 
 </html>
